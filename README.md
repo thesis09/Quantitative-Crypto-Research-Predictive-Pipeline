@@ -8,6 +8,8 @@
 
 > An end-to-end quantitative research pipeline that fetches **BTCUSDT 15-minute OHLCV data** from the Binance API (2020–2025), engineers 9 causal features including VWAP, TWAP, RSI, EMA, and rolling high/low proximity metrics, then trains **dual XGBoost regressors** to forecast the **% deviation from the next N-bar High and Low** — with strict `TimeSeriesSplit(n=5)` cross-validation and `RandomizedSearchCV` over 300 iterations to eliminate look-ahead bias and overfitting.
 
+> Author is open to RL + LLM + Quant engineering roles (India onsite / worldwide remote). Contact: kaustubhkubitkar@gmail.com
+
 ---
 
 ## 📊 Results
